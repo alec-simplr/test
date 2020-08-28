@@ -5,7 +5,7 @@
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "scripts": {
-    "preinstall": "npm install && rollup -c",
+    "preinstall": "rollup -c",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rollup -c",
     "build-watch": "rollup -c -w"
